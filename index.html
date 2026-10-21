@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="nome">A Lista</h1>
+    </header>
+
+    <main class="container">
+      <h1>Lista de Things</h1>
+      <p>Adicione aqui qualquer coisa</p>
+
+      <form id="form-tarefa">
+        <input id="titulo" type="text" placeholder="Nome da coisa" required />
+
+        <button id="adicionar" type="submit">Adicionar</button>
+
+      </form>
+      <p id="mensagens"></p>
+
+      <h2>Coisas Listadas</h2>
+      <ul id="lista-tarefas"></ul>
+    </main>
+
+    <footer>
+      <h1>O fim da Lista?</h1>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
